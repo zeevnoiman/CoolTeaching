@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import PageHeader from '../../components/PageHeader';
 
+import PageHeader from '../../components/PageHeader';
+import TeacherItem from '../../components/TeacherItem';
 import './styles.css';
 
 function TeachersList(){
   return (
-    <div id="page-teacher-list" className="container">
+    <div id="page-teacher-list">
       <PageHeader title='Those are the disponible teachers'>
         <form id="search-teachers">
           <div className="input-block">
@@ -23,6 +24,14 @@ function TeachersList(){
           </div>
         </form>
       </PageHeader>  
+
+      <main>
+        <TeacherItem/>
+        <TeacherItem/>
+        <TeacherItem/>
+        <TeacherItem/>
+        <TeacherItem/>
+      </main>
     </div>
   );
 }

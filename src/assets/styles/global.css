@@ -35,7 +35,7 @@
       background: var(--color-background);
   }
 
-  #root{
+  .App{
       display: flex;
       align-items: center;
       justify-content: center;
@@ -46,6 +46,7 @@
   button,
   textarea {
       font: 500 1.6rem Poppins;
+      color: var(--color-text-base);
   }
 
   .container{
