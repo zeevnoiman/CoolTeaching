@@ -1,7 +1,6 @@
 .page-header{
     display: flex;
     flex-direction: column;
-    height: 30rem;
     background-color: var(--color-primary);
 }
 
